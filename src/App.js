@@ -1,29 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import Profile from './components/Profile/Profile';
 
 function App() {
   return (
     <div className="app-wrapper">
-       <header class='header'>
-         <img src={logo} alt=""/>
-       </header>
-        <nav class='sidebar'>
-          <ul>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
-            <li>link</li>
-          </ul>
-        </nav>
-        <div class='content'>
-          <div>
-            <div>img</div>
-            <div>
-              post
-            </div>
-          </div>
-        </div>
+        <Header/>
+        <Navbar/>
+        <Profile/>
     </div>
   );
 }

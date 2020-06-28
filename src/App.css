@@ -18,10 +18,7 @@
   max-width: 80px;
 }
 
-.sidebar {
-  grid-area: nav;
-  background: rosybrown;
-}
+
 .content {
   grid-area: content;
   background: blanchedalmond;
