@@ -14,12 +14,12 @@ const MyPosts = () => {
         New post
         </div>
       <div className="posts">
-       <Post/>
-       <Post/>
-       <Post/>
-       <Post/>
-       <Post/>
-       <Post/>
+       <Post message={'Hello, it is props one'}/>
+       <Post message={'Hello, it is props two'}/>
+       <Post message={'Hello, it is props three'}/>
+       <Post message={'Hello, it is props four'}/>
+       <Post message={'Hello, it is props five'}/>
+       <Post message={'Hello, it is props six'}/>
       </div>
     </div>
    )
