@@ -1,4 +1,18 @@
 .sidebar {
-   grid-area: nav;
-   background: rosybrown;
- }
+    grid-area: nav;
+    background: rosybrown;
+}
+
+.nav {
+    padding: 20px;
+
+}
+
+.item a {
+    color: wheat;
+    text-decoration: none;
+}
+
+.item a.activeLink {
+    color: goldenrod;
+}

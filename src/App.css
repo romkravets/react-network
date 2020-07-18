@@ -9,17 +9,8 @@
   /* grid-gap: 10px; */
 
 }
-.header {
-  grid-area: header;
-  background: greenyellow;
-}
 
-.header img {
-  max-width: 80px;
-}
-
-
-.content {
+.app-wrapper-content {
   grid-area: content;
   background: blanchedalmond;
 }
